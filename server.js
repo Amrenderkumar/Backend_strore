@@ -1,17 +1,17 @@
-import express from 'express';
+// import express from 'express';
 
-const app = express();
+// const app = express();
 
-app.get('/', (req, res) =>{
-    res.send('Hello Bahu');
-});
+// app.get('/', (req, res) =>{
+//     res.send('Hello Bahu');
+// });
 
-const port = process.env.PORT || 2000;
+// const port = process.env.PORT || 2000;
 
-app.listen(port, () =>{
-    console.log(`server is ready, ${port}`)
-})
+// app.listen(port, () =>{
+//     console.log(`server is ready, ${port}`)
+// })
 
-app.get('/Don', (req, res) => {
-    res.send('<h1> Hello Amrender bahi kya hai kai </h1>')
-});
+// app.get('/Don', (req, res) => {
+//     res.send('<h1> Hello Amrender bahi kya hai kai </h1>')
+// });
